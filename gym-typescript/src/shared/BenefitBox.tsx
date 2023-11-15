@@ -1,8 +1,7 @@
 import { HomeModernIcon } from "@heroicons/react/24/solid";
 
-type Props = {};
 
-const BenefitBox = (props: Props) => {
+const BenefitBox = () => {
   return (
     <div className=" flex flex-col items-center px-5 py-20 border-2 gap-5 basis-full">
       <HomeModernIcon className="h-6 w-6" />
